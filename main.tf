@@ -13,7 +13,7 @@ variable "parameters" {
     {name = "prod.rds.endpoint", value = "prod-mysql.cluster-ci0wnnvfomah.us-east-1.rds.amazonaws.com", type = "String"},
 
     # Dev Env
-    {name = "dev.expense.frontend.backend_url", value = "http://backend-dev.yamunadevops.online/", type = "String"}
+    {name = "dev.expense.frontend.backend_url", value = "http://backend-dev.yamunadevops.online/", type = "String"},
 
     # Common env
     {name = "jenkins_password", value = "admin123", type = "SecureString"}
