@@ -19,7 +19,9 @@ variable "parameters" {
     {name = "dev.expense.frontend.backend_url", value = "http://backend-dev.yamunadevops.online/", type = "String"},
 
     # Common env
-    {name = "jenkins_password", value = "admin123", type = "SecureString"}
+    {name = "jenkins_password", value = "admin123", type = "SecureString"},
+    {name = "artifactory_username", value = "admin", type = "String"},
+    {name = "artifactory_username", value = "Admin123", type = "SecureString"}
   ]
 }
 
