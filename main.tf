@@ -21,7 +21,7 @@ variable "parameters" {
     # Common env
     {name = "jenkins_password", value = "admin123", type = "SecureString"},
     {name = "artifactory_username", value = "admin", type = "String"},
-    {name = "artifactory_username", value = "Admin123", type = "SecureString"}
+    {name = "artifactory_password", value = "Admin123", type = "SecureString"}
   ]
 }
 
