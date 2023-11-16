@@ -35,7 +35,7 @@ variable "parameters" {
     {name = "dev.roboshop.catalogue.MONGO_URL", value = "mongodb://mongodb-dev.yamunadevops.online:27017/catalogue", type = "String"},
     {name = "dev.roboshop.catalogue.MONGO_ENDPOINT", value = "mongodb-dev.yamunadevops.online", type = "String"},
     {name = "dev.roboshop.user.MONGO_URL", value = "mongodb://mongodb-dev.yamunadevops.online:27017/users", type = "String"},
-    {name = "dev.roboshop.catalogue.REDIS_HOST", value = "redis-dev.yamunadevops.online", type = "String"},
+    {name = "dev.roboshop.user.REDIS_HOST", value = "redis-dev.yamunadevops.online", type = "String"},
   ]
 }
 
