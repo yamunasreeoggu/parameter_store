@@ -53,6 +53,9 @@ variable "parameters" {
     {name = "dev.roboshop.dispatch.AMQP_HOST", value = "rabbitmq-dev.yamunadevops.online", type = "String"},
     {name = "dev.roboshop.dispatch.AMQP_USER", value = "roboshop", type = "String"},
 
+    # DB Endpoints
+    {name = "dev.roboshop.docdb.endpoint", value = "dev-docdb-cluster.cluster-ci0wnnvfomah.us-east-1.docdb.amazonaws.com", type = "String"},
+
 
 
     # Passwords
