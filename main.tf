@@ -32,7 +32,7 @@ variable "parameters" {
     {name = "dev.roboshop.frontend.user_url", value = "http://user-dev.yamunadevops.online:8080/", type = "String"},
     {name = "dev.roboshop.frontend.shipping_url", value = "http://shipping-dev.yamunadevops.online:8080/", type = "String"},
     {name = "dev.roboshop.frontend.payment_url", value = "http://payment-dev.yamunadevops.online:8080/", type = "String"},
-    {name = "dev.roboshop.catalogue.MONGO_URL", value = "'mongodb://docdbadmin:RoboShop1234@dev-docdb-cluster.cluster-ci0wnnvfomah.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false'", type = "String"},
+    {name = "dev.roboshop.catalogue.MONGO_URL", value = "mongodb://docdbadmin:RoboShop1234@dev-docdb-cluster.cluster-ci0wnnvfomah.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false", type = "String"},
     {name = "dev.roboshop.catalogue.MONGO_ENDPOINT", value = "mongodb-dev.yamunadevops.online", type = "String"},
     {name = "dev.roboshop.user.MONGO_ENDPOINT", value = "mongodb-dev.yamunadevops.online", type = "String"},
     {name = "dev.roboshop.user.MONGO_URL", value = "mongodb://mongodb-dev.yamunadevops.online:27017/users", type = "String"},
