@@ -41,7 +41,7 @@ variable "parameters" {
     {name = "dev.roboshop.cart.CATALOGUE_HOST", value = "catalogue-dev.yamunadevops.online", type = "String"},
     {name = "dev.roboshop.cart.CATALOGUE_PORT", value = "80", type = "String"},
     {name = "dev.roboshop.shipping.CART_ENDPOINT", value = "cart-dev.yamunadevops.online:80", type = "String"},
-    {name = "dev.roboshop.shipping.DB_HOST", value = "mysql-dev.yamunadevops.online", type = "String"},
+    {name = "dev.roboshop.shipping.DB_HOST", value = "dev-mysql.cluster-ci0wnnvfomah.us-east-1.rds.amazonaws.com", type = "String"},
     {name = "dev.roboshop.shipping.DB_USER", value = "root", type = "String"},
     {name = "dev.roboshop.payment.CART_HOST", value = "cart-dev.yamunadevops.online", type = "String"},
     {name = "dev.roboshop.payment.CART_PORT", value = "80", type = "String"},
@@ -55,7 +55,7 @@ variable "parameters" {
 
     # DB Endpoints
     {name = "dev.roboshop.docdb.endpoint", value = "dev-docdb-cluster.cluster-ci0wnnvfomah.us-east-1.docdb.amazonaws.com", type = "String"},
-
+    {name = "dev.roboshop.rds.endpoint", value = "dev-mysql.cluster-ci0wnnvfomah.us-east-1.rds.amazonaws.com", type = "String"},
 
 
     # Passwords
